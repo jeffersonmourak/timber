@@ -22,6 +22,7 @@ const start = ({ install, start, deploy, repository }) => {
 
 const stop = () => {
   currentProcess.kill();
+  currentProcess = null;
 }
 
 // const reload = ()
