@@ -1,0 +1,19 @@
+{
+  "name": "timber",
+  "version": "1.0.0",
+  "description": "No config deployment package",
+  "main": "index.js",
+  "author": "Jefferson Oliveira <jeffersonmourak@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  },
+  "dependencies": {
+    "@octokit/rest": "^18.7.1",
+    "express": "^4.17.1",
+    "shelljs": "^0.8.4"
+  }
+}
